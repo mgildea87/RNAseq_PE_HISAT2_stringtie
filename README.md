@@ -45,7 +45,7 @@ When starting a new project:
 		4. Update the samples_info.tab file with fastq.gz file names and desired sample, condition, and replicate names
 		5. Update config.yaml with path to genome and feature file (if needed. The default right now is mm10)
 		6. Update cluster_config.yml with job desired specifications for each Snakemake rule if desired
-		7. Perform a dry run of snakemake with 'snakemake -n -r' to check for errors and this will tell you the number of jobs required. You will need to load the miniconda3/4.6.14 module and activate the RNAseq environment first. Dont forget to deactivate the environment and miniconda module before running snakemake_init.sh
+		7. Calculate the number of jobs required and update the snakemake_init.sh script. You will need to load the miniconda3/4.6.14 module and activate the RNAseq environment first. Dont forget to deactivate the environment and miniconda module before running snakemake_init.sh
 		8. Run snakemake_init.sh
 		9. There are several parameters within stringtie that may need to be altered
 			-Read length (def = 65) in the prepDE.py script. This script creates a gene and transcript level count matrix for use in DESeq and requires read length to calculate raw read counts

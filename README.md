@@ -39,7 +39,7 @@ This file contains the environment info used by this pipeline.
 ## Usage
 When starting a new project:
 
-		1. Copy the above noted files (6) into the new project directory from /gpfs/home/gildem01/workflows/RNAseq_PE_HISAT2_stringtie_novel_transcripts/
+		1. Clone the git repo using 'git clone https://github.com/mgildea87/RNAseq_PE_HISAT2_stringtie.git'
 		2. Make a fastq/ directory in the new project directory
 		3. Copy the fastq.gz files into fastq/ 
 		4. Update the samples_info.tab file with fastq.gz file names and desired sample, condition, and replicate names
